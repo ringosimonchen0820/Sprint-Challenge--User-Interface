@@ -71,6 +71,48 @@ p {
     margin: 0 auto;
 }
 
+/* styles of header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+   
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin-top: 15px;
+    
+}
+
+header nav a {
+    display: inline-block;
+    font-size: 15px;
+    color:grey;
+    text-decoration: none;
+}
+
+header nav a:first-child {
+    margin-left: 0px;
+}
+
+header nav a:last-child {
+    margin-right: 0px;
+}
+
+header .Lambdalogo {
+    display: inline-block;
+}
+
+.jumbo {
+    margin:30px 0;
+    width:100%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +154,48 @@ p {
     justify-content: center;
 }
 
+/* box coloring */
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +209,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* styles of footer */
 
 footer {
     width: 100%;
@@ -143,4 +229,47 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about page */
+
+/* styles of introduction in about page */
+
+.about {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed rgb(85, 82, 82);
+}
+
+/* styles of body in about page */
+
+.aboutContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.aboutServicesContainer {
+    width: 390px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding: 10px; 
+}
+
+.aboutServicesContainer h2 {
+    margin-top: 10px;
+}
+.aboutServicesContainer button {
+    font-size: 16px;
+    margin: 15px 0px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 8px 30px;
+    cursor: auto;
+}
+
+.aboutFinalContainer {
+    padding-bottom: 30px;
+    margin: 20px 0px;
 }
